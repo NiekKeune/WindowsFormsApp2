@@ -102,17 +102,23 @@ namespace WindowsFormsApp2
 
         private void Subtract_Click(object sender, EventArgs e)
         {
-
+            operand1 = input;
+            operation = '-';
+            input = string.Empty;
         }
 
         private void Multiply_Click(object sender, EventArgs e)
         {
-
+            operand1 = input;
+            operation = '*';
+            input = string.Empty;
         }
 
         private void Divide_Click(object sender, EventArgs e)
         {
-
+            operand1 = input;
+            operation = '/';
+            input = string.Empty;
         }
 
         private void Percentage_Click(object sender, EventArgs e)

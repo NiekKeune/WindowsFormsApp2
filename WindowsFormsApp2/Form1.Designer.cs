@@ -58,11 +58,12 @@
             this.MemoryAdd = new System.Windows.Forms.Button();
             this.MemorySubtract = new System.Windows.Forms.Button();
             this.MemoryStore = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // Invert
             // 
-            this.Invert.Location = new System.Drawing.Point(14, 362);
+            this.Invert.Location = new System.Drawing.Point(14, 313);
             this.Invert.Name = "Invert";
             this.Invert.Size = new System.Drawing.Size(45, 45);
             this.Invert.TabIndex = 0;
@@ -72,7 +73,7 @@
             // 
             // Zero
             // 
-            this.Zero.Location = new System.Drawing.Point(65, 362);
+            this.Zero.Location = new System.Drawing.Point(65, 313);
             this.Zero.Name = "Zero";
             this.Zero.Size = new System.Drawing.Size(45, 45);
             this.Zero.TabIndex = 1;
@@ -82,7 +83,7 @@
             // 
             // Comma
             // 
-            this.Comma.Location = new System.Drawing.Point(116, 362);
+            this.Comma.Location = new System.Drawing.Point(116, 313);
             this.Comma.Name = "Comma";
             this.Comma.Size = new System.Drawing.Size(45, 45);
             this.Comma.TabIndex = 2;
@@ -92,7 +93,7 @@
             // 
             // Add
             // 
-            this.Add.Location = new System.Drawing.Point(167, 362);
+            this.Add.Location = new System.Drawing.Point(167, 313);
             this.Add.Name = "Add";
             this.Add.Size = new System.Drawing.Size(45, 45);
             this.Add.TabIndex = 3;
@@ -102,7 +103,7 @@
             // 
             // Equals
             // 
-            this.Equals.Location = new System.Drawing.Point(218, 362);
+            this.Equals.Location = new System.Drawing.Point(218, 313);
             this.Equals.Name = "Equals";
             this.Equals.Size = new System.Drawing.Size(45, 45);
             this.Equals.TabIndex = 4;
@@ -112,7 +113,7 @@
             // 
             // One
             // 
-            this.One.Location = new System.Drawing.Point(14, 311);
+            this.One.Location = new System.Drawing.Point(14, 262);
             this.One.Name = "One";
             this.One.Size = new System.Drawing.Size(45, 45);
             this.One.TabIndex = 5;
@@ -122,7 +123,7 @@
             // 
             // Two
             // 
-            this.Two.Location = new System.Drawing.Point(65, 311);
+            this.Two.Location = new System.Drawing.Point(65, 262);
             this.Two.Name = "Two";
             this.Two.Size = new System.Drawing.Size(45, 45);
             this.Two.TabIndex = 6;
@@ -132,7 +133,7 @@
             // 
             // Three
             // 
-            this.Three.Location = new System.Drawing.Point(116, 311);
+            this.Three.Location = new System.Drawing.Point(116, 262);
             this.Three.Name = "Three";
             this.Three.Size = new System.Drawing.Size(45, 45);
             this.Three.TabIndex = 7;
@@ -142,7 +143,7 @@
             // 
             // Subtract
             // 
-            this.Subtract.Location = new System.Drawing.Point(167, 311);
+            this.Subtract.Location = new System.Drawing.Point(167, 262);
             this.Subtract.Name = "Subtract";
             this.Subtract.Size = new System.Drawing.Size(45, 45);
             this.Subtract.TabIndex = 8;
@@ -152,7 +153,7 @@
             // 
             // Fraction
             // 
-            this.Fraction.Location = new System.Drawing.Point(218, 311);
+            this.Fraction.Location = new System.Drawing.Point(218, 262);
             this.Fraction.Name = "Fraction";
             this.Fraction.Size = new System.Drawing.Size(45, 45);
             this.Fraction.TabIndex = 9;
@@ -162,7 +163,7 @@
             // 
             // Four
             // 
-            this.Four.Location = new System.Drawing.Point(14, 260);
+            this.Four.Location = new System.Drawing.Point(14, 211);
             this.Four.Name = "Four";
             this.Four.Size = new System.Drawing.Size(45, 45);
             this.Four.TabIndex = 10;
@@ -172,7 +173,7 @@
             // 
             // Five
             // 
-            this.Five.Location = new System.Drawing.Point(65, 260);
+            this.Five.Location = new System.Drawing.Point(65, 211);
             this.Five.Name = "Five";
             this.Five.Size = new System.Drawing.Size(45, 45);
             this.Five.TabIndex = 11;
@@ -182,7 +183,7 @@
             // 
             // Six
             // 
-            this.Six.Location = new System.Drawing.Point(116, 260);
+            this.Six.Location = new System.Drawing.Point(116, 211);
             this.Six.Name = "Six";
             this.Six.Size = new System.Drawing.Size(45, 45);
             this.Six.TabIndex = 12;
@@ -192,7 +193,7 @@
             // 
             // Multiply
             // 
-            this.Multiply.Location = new System.Drawing.Point(167, 260);
+            this.Multiply.Location = new System.Drawing.Point(167, 211);
             this.Multiply.Name = "Multiply";
             this.Multiply.Size = new System.Drawing.Size(45, 45);
             this.Multiply.TabIndex = 13;
@@ -202,7 +203,7 @@
             // 
             // Percentage
             // 
-            this.Percentage.Location = new System.Drawing.Point(218, 260);
+            this.Percentage.Location = new System.Drawing.Point(218, 211);
             this.Percentage.Name = "Percentage";
             this.Percentage.Size = new System.Drawing.Size(45, 45);
             this.Percentage.TabIndex = 14;
@@ -212,7 +213,7 @@
             // 
             // Seven
             // 
-            this.Seven.Location = new System.Drawing.Point(12, 209);
+            this.Seven.Location = new System.Drawing.Point(12, 160);
             this.Seven.Name = "Seven";
             this.Seven.Size = new System.Drawing.Size(45, 45);
             this.Seven.TabIndex = 15;
@@ -222,7 +223,7 @@
             // 
             // Eight
             // 
-            this.Eight.Location = new System.Drawing.Point(65, 209);
+            this.Eight.Location = new System.Drawing.Point(65, 160);
             this.Eight.Name = "Eight";
             this.Eight.Size = new System.Drawing.Size(45, 45);
             this.Eight.TabIndex = 16;
@@ -232,7 +233,7 @@
             // 
             // Nine
             // 
-            this.Nine.Location = new System.Drawing.Point(116, 209);
+            this.Nine.Location = new System.Drawing.Point(116, 160);
             this.Nine.Name = "Nine";
             this.Nine.Size = new System.Drawing.Size(45, 45);
             this.Nine.TabIndex = 17;
@@ -242,7 +243,7 @@
             // 
             // Divide
             // 
-            this.Divide.Location = new System.Drawing.Point(167, 209);
+            this.Divide.Location = new System.Drawing.Point(167, 160);
             this.Divide.Name = "Divide";
             this.Divide.Size = new System.Drawing.Size(45, 45);
             this.Divide.TabIndex = 18;
@@ -252,7 +253,7 @@
             // 
             // MarkUp
             // 
-            this.MarkUp.Location = new System.Drawing.Point(218, 209);
+            this.MarkUp.Location = new System.Drawing.Point(218, 160);
             this.MarkUp.Name = "MarkUp";
             this.MarkUp.Size = new System.Drawing.Size(45, 45);
             this.MarkUp.TabIndex = 19;
@@ -262,7 +263,7 @@
             // 
             // ClearEntry
             // 
-            this.ClearEntry.Location = new System.Drawing.Point(12, 158);
+            this.ClearEntry.Location = new System.Drawing.Point(12, 109);
             this.ClearEntry.Name = "ClearEntry";
             this.ClearEntry.Size = new System.Drawing.Size(45, 45);
             this.ClearEntry.TabIndex = 20;
@@ -272,7 +273,7 @@
             // 
             // Clear
             // 
-            this.Clear.Location = new System.Drawing.Point(63, 158);
+            this.Clear.Location = new System.Drawing.Point(63, 109);
             this.Clear.Name = "Clear";
             this.Clear.Size = new System.Drawing.Size(45, 45);
             this.Clear.TabIndex = 21;
@@ -282,7 +283,7 @@
             // 
             // SquareRoot
             // 
-            this.SquareRoot.Location = new System.Drawing.Point(114, 158);
+            this.SquareRoot.Location = new System.Drawing.Point(114, 109);
             this.SquareRoot.Name = "SquareRoot";
             this.SquareRoot.Size = new System.Drawing.Size(45, 45);
             this.SquareRoot.TabIndex = 22;
@@ -292,17 +293,17 @@
             // 
             // Square
             // 
-            this.Square.Location = new System.Drawing.Point(165, 158);
+            this.Square.Location = new System.Drawing.Point(165, 109);
             this.Square.Name = "Square";
             this.Square.Size = new System.Drawing.Size(45, 45);
             this.Square.TabIndex = 23;
             this.Square.Text = "x^2";
             this.Square.UseVisualStyleBackColor = true;
-            this.Square.Click += new System.EventHandler(this.Root_Click);
+            this.Square.Click += new System.EventHandler(this.Square_Click);
             // 
             // Backspace
             // 
-            this.Backspace.Location = new System.Drawing.Point(218, 158);
+            this.Backspace.Location = new System.Drawing.Point(218, 109);
             this.Backspace.Name = "Backspace";
             this.Backspace.Size = new System.Drawing.Size(45, 45);
             this.Backspace.TabIndex = 24;
@@ -314,7 +315,7 @@
             // 
             this.MemoryClear.AccessibleName = "";
             this.MemoryClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.MemoryClear.Location = new System.Drawing.Point(12, 107);
+            this.MemoryClear.Location = new System.Drawing.Point(12, 58);
             this.MemoryClear.Name = "MemoryClear";
             this.MemoryClear.Size = new System.Drawing.Size(45, 45);
             this.MemoryClear.TabIndex = 25;
@@ -324,7 +325,7 @@
             // 
             // MemoryRecall
             // 
-            this.MemoryRecall.Location = new System.Drawing.Point(63, 107);
+            this.MemoryRecall.Location = new System.Drawing.Point(63, 58);
             this.MemoryRecall.Name = "MemoryRecall";
             this.MemoryRecall.Size = new System.Drawing.Size(45, 45);
             this.MemoryRecall.TabIndex = 26;
@@ -334,7 +335,7 @@
             // 
             // MemoryAdd
             // 
-            this.MemoryAdd.Location = new System.Drawing.Point(116, 107);
+            this.MemoryAdd.Location = new System.Drawing.Point(116, 58);
             this.MemoryAdd.Name = "MemoryAdd";
             this.MemoryAdd.Size = new System.Drawing.Size(45, 45);
             this.MemoryAdd.TabIndex = 27;
@@ -344,7 +345,7 @@
             // 
             // MemorySubtract
             // 
-            this.MemorySubtract.Location = new System.Drawing.Point(165, 107);
+            this.MemorySubtract.Location = new System.Drawing.Point(165, 58);
             this.MemorySubtract.Name = "MemorySubtract";
             this.MemorySubtract.Size = new System.Drawing.Size(45, 45);
             this.MemorySubtract.TabIndex = 28;
@@ -354,7 +355,7 @@
             // 
             // MemoryStore
             // 
-            this.MemoryStore.Location = new System.Drawing.Point(216, 107);
+            this.MemoryStore.Location = new System.Drawing.Point(216, 58);
             this.MemoryStore.Name = "MemoryStore";
             this.MemoryStore.Size = new System.Drawing.Size(45, 45);
             this.MemoryStore.TabIndex = 29;
@@ -362,11 +363,21 @@
             this.MemoryStore.UseVisualStyleBackColor = true;
             this.MemoryStore.Click += new System.EventHandler(this.MemoryStore_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(12, 12);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(249, 20);
+            this.textBox1.TabIndex = 30;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(275, 416);
+            this.ClientSize = new System.Drawing.Size(275, 362);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.MemoryStore);
             this.Controls.Add(this.MemorySubtract);
             this.Controls.Add(this.MemoryAdd);
@@ -401,6 +412,7 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -436,6 +448,7 @@
         private System.Windows.Forms.Button MemoryAdd;
         private System.Windows.Forms.Button MemorySubtract;
         private System.Windows.Forms.Button MemoryStore;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
